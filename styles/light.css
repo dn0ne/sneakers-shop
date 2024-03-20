@@ -12,6 +12,7 @@
   --md-sys-color-on-secondary: rgb(255 255 255);
   --md-sys-color-secondary-container: rgb(211 232 210);
   --md-sys-color-secondary-container-darker: color-mix(in srgb, var(--md-sys-color-secondary-container), #000 15%);
+  --md-sys-color-secondary-container-darkest: color-mix(in srgb, var(--md-sys-color-secondary-container), #000 30%);
   --md-sys-color-on-secondary-container: rgb(14 31 17);
   --md-sys-color-tertiary: rgb(57 101 109);
   --md-sys-color-on-tertiary: rgb(255 255 255);

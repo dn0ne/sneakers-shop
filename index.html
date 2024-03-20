@@ -20,40 +20,37 @@
 
 <body class="roboto-regular">
     <nav>
-        <p class="logo roboto-black-italic">SD</p>
-        <button>Каталог</button>
-        <button>Про нас</button>
-        <button>Контакти</button>
+        <a href="#top"><p class="logo roboto-black-italic">SD</p></a>
+        <a href="#catalog"><button>Каталог</button></a>
+        <a href="#about-us"><button>Про нас</button></a>
+        <a href="#contacts"><button>Контакти</button></a>
         <span class="nav-icon-button material-symbols-rounded">search</span>
         <span class="nav-icon-button material-symbols-rounded">shopping_cart</span>
     </nav>
-    <header>
+    <header id="top">
         <!-- <img src="images/header_back.jpg" alt="Взуття"> -->
         <article class="surface">
             <h1 class="roboto-light">Новинки</h1>
             <p>Перегляньте оновлений асортимент,<br> знайдіть пару до Вашої душі.</p>
-            <button class="button">До каталогу</button>
+            <a href="#catalog"><button class="button">До каталогу</button></a>
         </article>
     </header>
     <main>
         <section class="image-row surface">
             <figure class="image-button">
-                <!-- <img src="images/shoe_1.jpg" alt="Взуття"> -->
                 <button class="button">Стримане</button>
             </figure>
             <figure class="image-button">
-                <!-- <img src="images/shoe_2.jpg" alt="Взуття"> -->
                 <button class="button">Яскраве</button>
             </figure>
             <figure class="image-button">
-                <!-- <img src="images/shoe_3.jpg" alt="Взуття"> -->
                 <button class="button">Спортивне</button>
             </figure>
         </section>
         <hr class="divider">
         <section>
             <h1 class="roboto-light">Про нас</h1>
-            <section class="about-us">
+            <section id="about-us">
                 <article class="surface">
                     <p>SD - це інтернет-магазин, де ви можете знайти найкращі кросівки для будь-якого способу життя. Ми
                         пропонуємо широкий вибір взуття від всесвітньо відомих брендів, таких як Nike, Adidas, Puma, New
@@ -73,7 +70,7 @@
         <hr class="divider">
         <section>
             <h1 class="roboto-light">Чому обирають нас</h1>
-            <article class="why-we">
+            <article class="box-row">
                 <figure class="box surface">
                     <span class="material-symbols-rounded">local_mall</span>
                     <figcaption class="roboto-bold">Широкий<br>вибір</figcaption>
@@ -95,68 +92,118 @@
         <hr class="divider">
         <section>
             <h1 class="roboto-light">Каталог</h1>
-            <button>
-                <span class="material-symbols-rounded">arrow_back_ios_new</span>
-            </button>
-            <section>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
-                <div>
-                    <p></p>
-                    <button><span class="material-symbols-rounded">add_shopping_cart</span></button>
-                </div>
+            <section class="section-with-page-buttons">
+                <button class="page-button">
+                    <span class="material-symbols-rounded">arrow_back_ios_new</span>
+                </button>
+                <section id="catalog">
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                    <article class="item surface">
+                        <img src="images/shoe_4.jpg" alt="Взуття">
+                        <div class="item-panel">
+                            <div>
+                                <p class="roboto-light">New Balance</p>
+                                <p>4000.00</p>
+                            </div>
+                            <button class="button"><span
+                                    class="material-symbols-rounded">add_shopping_cart</span></button>
+                        </div>
+                    </article>
+                </section>
+                <button class="page-button">
+                    <span class="material-symbols-rounded">arrow_forward_ios</span>
+                </button>
             </section>
-            <button>
-                <span class="material-symbols-rounded">arrow_forward_ios</span>
-            </button>
         </section>
         <hr class="divider">
         <section>
             <h1 class="roboto-light">Відгуки</h1>
-            <section>
-                <button>
+            <section class="section-with-page-buttons">
+                <button class="page-button">
                     <span class="material-symbols-rounded">arrow_back_ios_new</span>
                 </button>
-                <article>
-                    <figure>
-                        <img src="images/olga.jpg" alt="Аватар - Ольга">
-                        <figcaption>Ольга<br>19.11.23</figcaption>
-                    </figure>
-                    <p>Нещодавно шукала кросівки для сина-підлітка. Він дуже вибагливий, тому знайти щось йому до
-                        вподоби складно.
-                        Випадково натрапила на цей магазин і була вражена. Величезний вибір кросівок на будь-який смак!
-                        Замовила кілька моделей, які могли б йому сподобатися.
-                        Кросівки прийшли швидко, в гарній упаковці. Син був у захваті! Вони зручні, стильні і якісні.
-                        Носить вже кілька тижнів і дуже задоволений.</p>
-                </article>
-                <article>
-                    <figure>
-                        <img src="images/victor.jpg" alt="Аватар - Віктор">
-                        <figcaption>Віктор<br>01.02.24</figcaption>
-                    </figure>
-                    <p>Я замовляв кросівки в цьому магазині вже кілька разів і завжди залишався задоволений. Тут широкий
-                        вибір кросівок на будь-який смак і бюджет. Ціни дуже доступні, а якість взуття завжди на висоті.
-                    </p>
-                </article>
-                <button>
+                <section id="reviews">
+                    <article class="surface">
+                        <figure>
+                            <img src="images/olga.jpg" alt="Аватар - Ольга">
+                            <figcaption>Ольга<br>19.11.23</figcaption>
+                        </figure>
+                        <p>Нещодавно шукала кросівки для сина-підлітка. Він дуже вибагливий, тому знайти щось йому до
+                            вподоби складно.
+                            Випадково натрапила на цей магазин і була вражена. Величезний вибір кросівок на будь-який
+                            смак!
+                            Замовила кілька моделей, які могли б йому сподобатися.
+                            Кросівки прийшли швидко, в гарній упаковці. Син був у захваті! Вони зручні, стильні і
+                            якісні.
+                            Носить вже кілька тижнів і дуже задоволений.</p>
+                    </article>
+                    <article class="surface">
+                        <figure>
+                            <img src="images/victor.jpg" alt="Аватар - Віктор">
+                            <figcaption>Віктор<br>01.02.24</figcaption>
+                        </figure>
+                        <p>Я замовляв кросівки в цьому магазині вже кілька разів і завжди залишався задоволений. Тут
+                            широкий
+                            вибір кросівок на будь-який смак і бюджет. Ціни дуже доступні, а якість взуття завжди на
+                            висоті.
+                        </p>
+                    </article>
+                </section>
+                <button class="page-button">
                     <span class="material-symbols-rounded">arrow_forward_ios</span>
                 </button>
             </section>
@@ -165,55 +212,59 @@
         <section>
             <h1 class="roboto-light">Поділіться враженнями</h1>
             <section>
-                <form action="">
-                    <input type="text" placeholder="Ваше ім'я">
-                    <input type="text" placeholder="Відгук">
-                    <input type="submit" value="Відправити">
+                <form class="add-review surface" action="">
+                    <input class="text-box" type="text" placeholder="Ваше ім'я">
+                    <input class="text-box" type="text" placeholder="Відгук">
+                    <input class="button" type="submit" value="Відправити">
                 </form>
             </section>
         </section>
         <hr class="divider">
         <section>
             <h1 class="roboto-light">Доставка і оплата</h1>
-            <figure>
-                <span class="material-symbols-rounded">shopping_cart</span>
-                <figcaption>Замовляєте взуття через каталог</figcaption>
-            </figure>
-            <figure>
-                <span class="material-symbols-rounded">phone</span>
-                <figcaption>Менеджери підтверджують замовлення</figcaption>
-            </figure>
-            <figure>
-                <span class="material-symbols-rounded">credit_score</span>
-                <figcaption>Оплачуєте замовлення онлайн зручним способом</figcaption>
-            </figure>
-            <figure>
-                <span class="material-symbols-rounded">local_shipping</span>
-                <figcaption>Доставляємо Новою поштою протягом 1-2 днів</figcaption>
-            </figure>
+            <section id="shipping" class="box-row">
+                <figure class="box surface">
+                    <span class="material-symbols-rounded">shopping_cart</span>
+                    <figcaption>Замовляєте взуття<br>через каталог</figcaption>
+                </figure>
+                <figure class="box surface">
+                    <span class="material-symbols-rounded">phone</span>
+                    <figcaption>Менеджери<br>підтверджують<br>замовлення</figcaption>
+                </figure>
+                <figure class="box surface">
+                    <span class="material-symbols-rounded">credit_score</span>
+                    <figcaption>Оплачуєте<br>замовлення онлайн<br>зручним способом</figcaption>
+                </figure>
+                <figure class="box surface">
+                    <span class="material-symbols-rounded">local_shipping</span>
+                    <figcaption>Доставляємо<br>Новою поштою<br>протягом 1-2 днів</figcaption>
+                </figure>
+            </section>
         </section>
     </main>
     <footer>
         <h1 class="roboto-black-italic">SD</h1>
-        <ul>
-            <h6>Контакти</h6>
-            <li>(000) 000 00 00</li>
-            <li>(000) 000 00 00</li>
-            <li>Працюємо з 9 до 17</li>
-        </ul>
-        <ul>
-            <h6>Інформація</h6>
-            <li>Про нас</li>
-            <li>Відгуки</li>
-            <li>Доставка і оплата</li>
-        </ul>
-        <ul>
-            <h6>Каталог</h6>
-            <li>Новинки</li>
-            <li>Хіт продажу</li>
-            <li>Сезонний розпродаж</li>
-            <li>Наш вибір</li>
-        </ul>
+        <section>
+            <ul>
+                <h3 id="contacts">Контакти</h3>
+                <li>(000) 000 00 00</li>
+                <li>(000) 000 00 00</li>
+                <li>Працюємо з 9 до 17</li>
+            </ul>
+            <ul>
+                <h3>Інформація</h3>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#reviews">Відгуки</a></li>
+                <li><a href="#shipping">Доставка і оплата</a></li>
+            </ul>
+            <ul>
+                <h3>Каталог</h3>
+                <li>Новинки</li>
+                <li>Хіт продажу</li>
+                <li>Сезонний розпродаж</li>
+                <li>Наш вибір</li>
+            </ul>
+        </section>
     </footer>
 </body>
 
