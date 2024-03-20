@@ -218,6 +218,7 @@ main > section > h1 {
 .about-us > article {
     width: 40%;
     max-height: 100%;
+    min-height: 100%;
     padding: 24px;
 }
 
@@ -227,4 +228,38 @@ main > section > h1 {
 
 .about-us > article > p {
     margin-bottom: 16px;
+}
+
+.why-we {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 16px;
+}
+
+.box:nth-child(even) {
+    margin-top: 56px;
+}
+
+.box {
+    width: 210px;
+    height: 210px;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > span {
+    font-size: 40px;
+    padding: 10px;
+    margin: 16px;
+    background-color: var(--md-sys-color-secondary-container);
+    border-radius: 16px;
+}
+
+.box > figcaption {
+    text-align: center;
 }
