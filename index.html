@@ -20,12 +20,17 @@
 
 <body class="roboto-regular">
     <nav>
-        <a href="#top"><p class="logo roboto-black-italic">SD</p></a>
+        <div class="nav-button-group">
+            <span id="menu-button" class="nav-icon-button material-symbols-rounded">menu</span>
+            <a href="#top"><p class="logo roboto-black-italic">SD</p></a>
+        </div>
         <a href="#catalog"><button>Каталог</button></a>
         <a href="#about-us"><button>Про нас</button></a>
         <a href="#contacts"><button>Контакти</button></a>
-        <span class="nav-icon-button material-symbols-rounded">search</span>
-        <span class="nav-icon-button material-symbols-rounded">shopping_cart</span>
+        <div class="nav-button-group">
+            <span class="nav-icon-button material-symbols-rounded">search</span>
+            <span class="nav-icon-button material-symbols-rounded">shopping_cart</span>
+        </div>
     </nav>
     <header id="top">
         <!-- <img src="images/header_back.jpg" alt="Взуття"> -->
@@ -141,7 +146,7 @@
                                     class="material-symbols-rounded">add_shopping_cart</span></button>
                         </div>
                     </article>
-                    <article class="item surface">
+                    <article class="extra-item item surface">
                         <img src="images/shoe_4.jpg" alt="Взуття">
                         <div class="item-panel">
                             <div>
@@ -152,7 +157,7 @@
                                     class="material-symbols-rounded">add_shopping_cart</span></button>
                         </div>
                     </article>
-                    <article class="item surface">
+                    <article class="extra-item item surface">
                         <img src="images/shoe_4.jpg" alt="Взуття">
                         <div class="item-panel">
                             <div>
@@ -209,7 +214,7 @@
             </section>
         </section>
         <hr class="divider">
-        <section>
+        <section id="add-review-section">
             <h1 class="roboto-light">Поділіться враженнями</h1>
             <section>
                 <form class="add-review surface" action="">
